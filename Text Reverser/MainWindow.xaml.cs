@@ -33,7 +33,7 @@ namespace Text_Reverser
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _converterVM.Reverser.UserOutput = _converterVM.Reverser.UserInput;
+            _converterVM.ReverseString();
         }
     }
 }
