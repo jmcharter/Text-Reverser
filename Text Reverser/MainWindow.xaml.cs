@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Engine.ViewModels;
 
 namespace Text_Reverser
 {
@@ -20,17 +21,19 @@ namespace Text_Reverser
     /// </summary>
     public partial class MainWindow : Window
     {
+        private ConverterVM _converterVM;
         public MainWindow()
         {
             InitializeComponent();
 
+            _converterVM = new ConverterVM();
+            DataContext = _converterVM;
 
         }
 
-        private void ReverseButton_Click(object sender, MouseButtonEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
+            _converterVM.Reverser.UserOutput = _converterVM.Reverser.UserInput;
         }
-
     }
 }
