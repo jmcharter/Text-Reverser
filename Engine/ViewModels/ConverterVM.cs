@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Engine.ViewModels
 {
-    class ConverterVM
+    public class ConverterVM
     {
         public StringInput Reverser { get; set; }
 
@@ -15,6 +15,7 @@ namespace Engine.ViewModels
         {
             Reverser = new StringInput();
             Reverser.UserInput = "Type here...";
+            Reverser.UserOutput = "";
 
         }
     }

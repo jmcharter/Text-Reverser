@@ -8,17 +8,27 @@ using System.Threading.Tasks;
 
 namespace Engine.Models
 {
-    class StringInput : INotifyPropertyChanged
+    public class StringInput : INotifyPropertyChanged
     {
         private string _getUserInput;
+        private string _getUserOutput;
 
         public string UserInput
         {
             get { return _getUserInput; }
             set
             {
-                UserInput = value;
+                _getUserInput = value;
                 OnPropertyChanged("UserInput");
+            }
+        }
+        public string UserOutput
+        {
+            get { return _getUserOutput; }
+            set
+            {
+                _getUserOutput = value;
+                OnPropertyChanged("UserOutput");
             }
         }
 
