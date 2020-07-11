@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "Text Reverser\UI.csproj", "{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{73F3FB80-17BA-4116-B8DC-B4CA951FF875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAB56DCA-C80B-4390-BDC3-D0283D8FA9A5}
+	EndGlobalSection
+EndGlobal
