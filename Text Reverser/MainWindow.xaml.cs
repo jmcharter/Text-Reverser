@@ -31,9 +31,27 @@ namespace Text_Reverser
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Reverse_Click(object sender, RoutedEventArgs e)
         {
             _converterVM.ReverseString();
+        }
+
+        private void TextBox_KeyEnter(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.Return)
+            {
+                
+                _converterVM.ReverseString();
+            }
+        }
+
+        private void Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+            string_out.SelectAll();
+            string_out.Copy();
+
+
         }
     }
 }

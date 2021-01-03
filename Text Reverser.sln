@@ -10,17 +10,37 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Test|Any CPU = Test|Any CPU
+		Test|x64 = Test|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Debug|x64.ActiveCfg = Debug|x64
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Debug|x64.Build.0 = Debug|x64
 		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Release|x64.ActiveCfg = Release|x64
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Release|x64.Build.0 = Release|x64
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Test|Any CPU.Build.0 = Test|Any CPU
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Test|x64.ActiveCfg = Test|x64
+		{CDC1F584-2E17-4F1C-BFC9-208897A75A9A}.Test|x64.Build.0 = Test|x64
 		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Debug|x64.ActiveCfg = Debug|x64
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Debug|x64.Build.0 = Debug|x64
 		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Release|x64.ActiveCfg = Release|x64
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Release|x64.Build.0 = Release|x64
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Test|Any CPU.Build.0 = Test|Any CPU
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Test|x64.ActiveCfg = Test|x64
+		{73F3FB80-17BA-4116-B8DC-B4CA951FF875}.Test|x64.Build.0 = Test|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
